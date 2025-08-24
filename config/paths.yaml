@@ -1,2 +1,20 @@
-input_dir: "./data/input"
-output_dir: "./data/output"
+# config/paths.yaml
+paths:
+  # Input/Output directories
+  input_dir: "data/input"
+  output_dir: "data/output"
+  
+  # Model paths
+  models_dir: "models"
+  pretrained_weights: "models/rife_weights.pth"
+  
+  # Temporary processing
+  temp_dir: "temp"
+  cache_dir: ".cache"
+  
+  # Logging
+  log_dir: "logs"
+  
+  # Supported formats
+  supported_input_formats: [".mp4", ".avi", ".mov", ".mkv", ".webm"]
+  supported_output_formats: [".mp4", ".avi", ".mov"]
