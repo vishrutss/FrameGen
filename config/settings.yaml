@@ -1,0 +1,3 @@
+target_fps: 120
+models:
+  default: rife
